@@ -15,4 +15,25 @@ considered the entire flow of the game and how players interact with the screen.
 - The grid word components combinition not really worked, they need someone to explain.
 - make more depth of field. more lighting effects (leave it if I have more time)
 - other thoughts about level design: dialogues with sentences that have several meanings, and the players can decide how the plot goes.
-generally, all of them being more interested in Chinese learning, and the painting-based characters also make sense to them. Instead of serious language education, its more like a portal of Chinese learning. 
+generally, all of them being more interested in Chinese learning, and the painting-based characters also make sense to them. Instead of serious language education, its more like a portal of Chinese learning.
+
+I also rescheduled my timetable:
+![gantt chart](https://github.com/YiningJenny/FinalYearProject/assets/119497753/0566f498-01db-4763-bca3-00acaa468f27)
+
+## 5th October - Toturial with Mahalia and Lieven
+Mahalia's feedback: 
+- The Level 1 character models are kind of blurred by the background. It lookd a little bit confusing, (maybe make people feel confused is my goal)but I'd better make the model more stand up from the background.
+- We talked about game's core mechanics, she suggested me to talk to Lieven about the technical fundamentals.
+- about dissertation: write pieces of paragraphs in daily, then I can organize them easily in the future.
+
+Lieven's suggestion:
+  - For speech recognition, I can try the following tutorials:
+    - [google Speech-to-Text API](https://codelabs.developers.google.com/codelabs/cloud-speech-text-csharp#0)
+    - [Microsoft Speech recognition engine class](https://learn.microsoft.com/en-us/dotnet/api/system.speech.recognition.speechrecognitionengine?view=netframework-4.8.1)
+- For hand motion track, I can try:
+  - camera
+  - kinect (borrow one from CCI)
+  - or leap motion
+- For Arduino wireless, I can try:
+  - [Bluetooth HC-05](https://www.deviceplus.com/arduino/how-to-control-an-arduino-from-a-windows-computer/)
+Overall, the good news is that I don't need to use Arduino in the new levels, so need to worry the digital sending efficiency. 
