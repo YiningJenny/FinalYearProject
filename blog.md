@@ -16,6 +16,7 @@ considered the entire flow of the game and how players interact with the screen.
 - make more depth of field. more lighting effects (leave it if I have more time)
 - other thoughts about level design: dialogues with sentences that have several meanings, and the players can decide how the plot goes.
 generally, all of them being more interested in Chinese learning, and the painting-based characters also make sense to them. Instead of serious language education, its more like a portal of Chinese learning.
+- Generally, the audience prefer to be actively involved in the educational process and not simply be passive listeners and onlookers. Even though I was talking about game design elements which totally related to my practice part, almost all of them were scrolling. Maybe it's easier for people nowadays to accept digital information rather than purely text. (I will add it to my question list)
 
 I also rescheduled my timetable:
 ![gantt chart](https://github.com/YiningJenny/FinalYearProject/assets/119497753/0566f498-01db-4763-bca3-00acaa468f27)
