@@ -38,3 +38,6 @@ Lieven's suggestion:
 - For Arduino wireless, I can try:
   - [Bluetooth HC-05](https://www.deviceplus.com/arduino/how-to-control-an-arduino-from-a-windows-computer/)
 Overall, the good news is that I don't need to use Arduino in the new levels, so need to worry the digital sending efficiency. 
+## 9th Oct
+Reschedualed my timetable. I realized that I cant really arrange till the last day. So I moved my plans up.
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/892e3335-c871-4e9f-b249-ebac581fe7aa)
