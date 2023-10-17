@@ -62,7 +62,7 @@ I was kinda stuck on the core gameplay machanics. Mahalia suggestted me go back 
 
 ![第四关关卡设计草稿](https://github.com/YiningJenny/FinalYearProject/assets/119497753/9022e3b3-3b8a-460a-a9eb-1005f42448c6)
 
-- another unfinished version of new level: I followed the method of disassembling the Hanzi into different parts and lowering the colour contrast of the fonts for the game background. Both on top and bottom of the screen, I used the 'spikes' word from Chinese hieroglyphics. Since Chinese hieroglyphics is more based on image, I except audience can recognize the meaning of the word by its shape. I also plan to apply more hieroglyphics to my game in this way.
+- another unfinished version of new level: As same as my workshop, I followed the method of disassembling the Hanzi into different parts and lowering the colour contrast of the fonts for the game background. Both on top and bottom of the screen, I used the 'spikes' word from Chinese hieroglyphics. Since Chinese hieroglyphics is more based on image, I except audience can recognize the meaning of the word by its shape. I also plan to apply more hieroglyphics to my game in this way.
 
 ![新版第四关](https://github.com/YiningJenny/FinalYearProject/assets/119497753/4c0745ea-d2fc-410b-bdb0-e8412fee8694)
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/1ff41d16-759f-41c8-8795-b1a567dbdf72)
