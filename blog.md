@@ -45,4 +45,11 @@ Reschedualed my timetable. I realized that I cant really arrange till the last d
 I was kinda stuck on the core gameplay machanics. Mahalia suggestted me go back the original game goal and do a recap.
 - Think about my target audience
   - My opinion was __'people who interested in language learing'__. Mahalia prefer to be open-minded and not that serious: language learning can be in another way, no class constraints. Compared with education, my project is more game based, so it's better for me to target my audience into __'people who interest in language'__
-- To recap the story of my inspiration, tower babel. The first generation of the physical game was a brilliant way to convey the existence of language barriers. The digital version, the second generation, emphasises the importance of collaboration. Additionally, both generations of the game are co-operative multiplayer. However, due to time constraints, we removed all co-operative elements in the third generation. Now, I can reintroduce co-operation in the fourth generation because in the story of Tabapet, those who tried to co-operate to build a tower in case of a second flood were punished by the gods. "collaboration" and "language" can be the two core machanics in my game.
+- To recap the story of my inspiration, tower babel. The first generation of the physical game was a brilliant way to convey the existence of language barriers. The second digital generation emphasises the importance of collaboration. Additionally, both generations of the game are co-operative multiplayer. However, due to time constraints, we removed all co-operative elements in the third generation. Now, I can reintroduce co-operation in the fourth generation because in the story of Tabapet, those who tried to co-operate to build a tower in case of a second flood were punished by the gods. "collaboration" and "language" can be the two core machanics in my game. The mode of cooperation ccan be:
+  - digital - two players chase each other in the game
+  - physical - one player conduct and another operate
+ 
+## 17th Oct - start Unity level design
+![第四关关卡设计草稿](https://github.com/YiningJenny/FinalYearProject/assets/119497753/9022e3b3-3b8a-460a-a9eb-1005f42448c6)
+
+![新版第四关设计草稿](htps://github.com/YiningJenny/FinalYearProject/assets/119497753/4c0745ea-d2fc-410b-bdb0-e8412fee8694)
