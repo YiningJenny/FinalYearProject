@@ -52,4 +52,4 @@ I was kinda stuck on the core gameplay machanics. Mahalia suggestted me go back 
 ## 17th Oct - start Unity level design
 ![第四关关卡设计草稿](https://github.com/YiningJenny/FinalYearProject/assets/119497753/9022e3b3-3b8a-460a-a9eb-1005f42448c6)
 
-![新版第四关设计草稿](htps://github.com/YiningJenny/FinalYearProject/assets/119497753/4c0745ea-d2fc-410b-bdb0-e8412fee8694)
+![新版第四关设计草稿](https://github.com/YiningJenny/FinalYearProject/assets/119497753/4c0745ea-d2fc-410b-bdb0-e8412fee8694)
