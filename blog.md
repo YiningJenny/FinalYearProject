@@ -55,14 +55,14 @@ I was kinda stuck on the core gameplay machanics. Mahalia suggestted me go back 
 - To recap the story of my inspiration, tower babel. The first generation of the physical game was a brilliant way to convey the existence of language barriers. The second digital generation emphasises the importance of collaboration. Additionally, both generations of the game are co-operative multiplayer. However, due to time constraints, we removed all co-operative elements in the third generation. Now, I can reintroduce co-operation in the fourth generation because in the story of tower babel, those who tried to co-operate to build a tower in case of a second flood were punished by the gods. "collaboration" and "language" can be the two core machanics in my game. The mode of cooperation ccan be:
   - digital - two players chase each other in the game
   - physical - one player conduct and another operate
- 
+ I'm interested in both, I'll try make two playable versions and test them.
 ## 17th Oct - start Unity level design
 
-- Sketch of the two version and some of the Hanzi components that I want to use.
+- Sketch of the two game version and some of the Hanzi components that I want to use.
 
 ![第四关关卡设计草稿](https://github.com/YiningJenny/FinalYearProject/assets/119497753/9022e3b3-3b8a-460a-a9eb-1005f42448c6)
 
-- another unfinished version of new level: I followed the method of disassembling the kanji into different parts and lowering the colour contrast of the fonts for the game background. Both on top and bottom of the screen, I used the 'spikes' word from Chinese hieroglyphics. Since Chinese hieroglyphics is more based on image, I except audience can recognize the meaning of the word by its shape. I also plan to apply more hieroglyphics to my game in this way.
+- another unfinished version of new level: I followed the method of disassembling the Hanzi into different parts and lowering the colour contrast of the fonts for the game background. Both on top and bottom of the screen, I used the 'spikes' word from Chinese hieroglyphics. Since Chinese hieroglyphics is more based on image, I except audience can recognize the meaning of the word by its shape. I also plan to apply more hieroglyphics to my game in this way.
 
 ![新版第四关](https://github.com/YiningJenny/FinalYearProject/assets/119497753/4c0745ea-d2fc-410b-bdb0-e8412fee8694)
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/1ff41d16-759f-41c8-8795-b1a567dbdf72)
