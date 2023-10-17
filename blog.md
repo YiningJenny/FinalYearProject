@@ -41,3 +41,8 @@ Overall, the good news is that I don't need to use Arduino in the new levels, so
 ## 9th Oct
 Reschedualed my timetable. I realized that I cant really arrange till the last day. So I moved my plans up.
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/892e3335-c871-4e9f-b249-ebac581fe7aa)
+## 12th Oct - tutorial with Mahalia
+I was kinda stuck on the core gameplay machanics. Mahalia suggestted me go back the original game goal and do a recap.
+- Think about my target audience
+  - My opinion was __'people who interested in language learing'__. Mahalia prefer to be open-minded and not that serious: language learning can be in another way, no class constraints. Compared with education, my project is more game based, so it's better for me to target my audience into __'people who interest in language'__
+- To recap the story of my inspiration, tower babel. The first generation of the physical game was a brilliant way to convey the existence of language barriers. The digital version, the second generation, emphasises the importance of collaboration. Additionally, both generations of the game are co-operative multiplayer. However, due to time constraints, we removed all co-operative elements in the third generation. Now, I can reintroduce co-operation in the fourth generation because in the story of Tabapet, those who tried to co-operate to build a tower in case of a second flood were punished by the gods. "collaboration" and "language" can be the two core machanics in my game.
