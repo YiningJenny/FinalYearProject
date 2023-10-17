@@ -74,4 +74,5 @@ I will keep both of the two version for inviting people play my game, and do fur
   ['朿', means spikes](https://m.dacidian.net/ziyuan_523A/)
   ,['朿'](https://www.sohu.com/a/340665654_673976)
   ,['朿'](https://en.wiktionary.org/wiki/%E6%9C%BF)
+  
   ,['矛', means spear](https://chardb.iis.sinica.edu.tw/evolution.jsp?cid=17440#)
