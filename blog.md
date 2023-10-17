@@ -67,3 +67,4 @@ I was kinda stuck on the core gameplay machanics. Mahalia suggestted me go back 
 ![新版第四关](https://github.com/YiningJenny/FinalYearProject/assets/119497753/4c0745ea-d2fc-410b-bdb0-e8412fee8694)
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/1ff41d16-759f-41c8-8795-b1a567dbdf72)
 
+I will keep both of the two version for inviting people play my game, and do further adaptation.
