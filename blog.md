@@ -68,3 +68,10 @@ I was kinda stuck on the core gameplay machanics. Mahalia suggestted me go back 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/1ff41d16-759f-41c8-8795-b1a567dbdf72)
 
 I will keep both of the two version for inviting people play my game, and do further adaptation.
+
+- Hieroglyphics resources:
+
+  ['朿', means spikes](https://m.dacidian.net/ziyuan_523A/)
+  ,['朿'](https://www.sohu.com/a/340665654_673976)
+  ,['朿'](https://en.wiktionary.org/wiki/%E6%9C%BF)
+  ,['矛', means spear](https://chardb.iis.sinica.edu.tw/evolution.jsp?cid=17440#)
