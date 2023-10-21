@@ -63,6 +63,8 @@ I was kinda stuck on the core gameplay machanics. Mahalia suggestted me go back 
 ![第四关关卡设计草稿](https://github.com/YiningJenny/FinalYearProject/assets/119497753/9022e3b3-3b8a-460a-a9eb-1005f42448c6)
 
 - another unfinished version of new level: As same as my workshop, I followed the method of disassembling the Hanzi into different parts and lowering the colour contrast of the fonts for the game background. Both on top and bottom of the screen, I used the 'spikes' word from Chinese hieroglyphics. Since Chinese hieroglyphics is more based on image, I except audience can recognize the meaning of the word by its shape. I also plan to apply more hieroglyphics to my game in this way.
+  - In this level, two players need to work together to go through. Player1 needs to be the conductor, stand in front of the screen and give the order. Player2 needs to stand at back of the screen and follow the order. Their goal is to control the game character move left and right to survive as long as possible. Player1 shows the signal of "left" and "right", Player2 needs to speak "left" and "right" towards the microphone in Chinese mandarin.
+- I hope players can practise speaking in this level.
 
 ![新版第四关](https://github.com/YiningJenny/FinalYearProject/assets/119497753/4c0745ea-d2fc-410b-bdb0-e8412fee8694)
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/1ff41d16-759f-41c8-8795-b1a567dbdf72)
@@ -77,6 +79,9 @@ I will keep both of the two version for inviting people play my game, and do fur
   
   ['矛', means spear](https://chardb.iis.sinica.edu.tw/evolution.jsp?cid=17440#)
 
+## 19th Oct - Tutorial
+- 讨论并发现了关卡设计中的一些漏洞，并设计了解决方法。包括：
+  - 单独在最后一关中加入合作环节似乎有些不妥，也许可以将前两关都做成竞赛模式，玩家在前面的关卡中努力竞争，来决定最后一关的合作角色（比如说赢的人可以当指挥）。这种游戏机制可能有些作弊和annoying，因为他们在前面部分付出的努力几乎没有实质性的作用。考虑到作为指挥的玩家可能会感到无聊（因为他除了举指示牌之外不用做任何事情），所以我们考虑让指挥家控制玩家跳跃，但是跳跃在这个游戏中并不是非常有必要，甚至可能会加速玩家死亡。这个设计的点在于：告诉玩家你可以这么做，但当他们尝试之后会发现这是个无用的功能。
 ## 21th Oct
 - assembly and test Arduino sensors and revise the previous code.
   ![cd4de8c54c1f73802d6bc65999d79c7](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d3cba728-618c-4e0c-99b8-ac2b997b52e0)
