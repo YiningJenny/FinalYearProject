@@ -76,3 +76,9 @@ I will keep both of the two version for inviting people play my game, and do fur
   ,['朿'](https://en.wiktionary.org/wiki/%E6%9C%BF)
   
   ['矛', means spear](https://chardb.iis.sinica.edu.tw/evolution.jsp?cid=17440#)
+
+## 21th Oct
+- assembly and test Arduino sensors and revise the previous code.
+  ![cd4de8c54c1f73802d6bc65999d79c7](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d3cba728-618c-4e0c-99b8-ac2b997b52e0)
+- Continue Unity coding Level 4. (Finished the spike ball)(在这里补充SpikeBall的代码和画线的组件和代码)
+  
