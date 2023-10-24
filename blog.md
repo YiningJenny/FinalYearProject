@@ -30,7 +30,7 @@ The evolution of Ding character:
 
 [Image from web](https://baike.baidu.com/reference/4390795/f88apGq3NpDWad8B-gKntk1vJ_syo7ITFDs8ewI4RMSKTU3LyLX43u8axhMZlP8fPl8RU0fD4GmGh8h0b3p2IAl0QDg1brPuw6rPAs9nbi0ljneaLAESsi2CjEydlQc)
   
-
+[Resources from Wiki](https://en.wikipedia.org/wiki/Shang_dynasty)
 
 ## 26 June - Arduino Bluetooth module
 
@@ -163,6 +163,17 @@ I will keep both of the two version for inviting people play my game, and do fur
   ![cd4de8c54c1f73802d6bc65999d79c7](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d3cba728-618c-4e0c-99b8-ac2b997b52e0)
 - Continue Unity coding Level 4. (Finished the spike ball)(在这里补充SpikeBall的代码和画线的组件和代码)
   
+## 23th Oct
+
+找了第五关文字对应的字形演变图
+
+[Ding(鼎)](https://zh.wiktionary.org/zh/%E9%BC%8E)
+
+[bird](https://en.wikipedia.org/wiki/Radical_196#Evolution)
+
+[Yu(聿)](https://en.wiktionary.org/wiki/%E8%81%BF)
+
+
 ## 24th Oct - Tutorial with Lieven
 
 I talked to Lieven to figure out the __HC-05__ bluetooth module. I tried bluetooth moodule during summer vancancy but failed with the connection. We didn't totally succeed but fortunately I've got some progress after talking to Lieven.
