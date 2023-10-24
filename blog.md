@@ -11,7 +11,7 @@ I talked to Matt and asked bluetooth, he gave me some suggestions and different 
 [HC-05 Bluetooth Module Interfacing with Arduino UNO](https://www.electronicwings.com/arduino/hc-05-bluetooth-module-interfacing-with-arduino-uno)
 
 ## 14 July - Tutorial with Mahalia
-I talked to Mahalia about my project plan. I havn't decided what to do but generally base on last term's group work---
+I talked to Mahalia about my project plan. I havn't decided what to do but generally base on last term's group work---[Legend of Hanzi](https://github.com/YiningJenny/A.C.E_Docs). 
 
 ## 17 - 18 August : flow chart and sketch diagram in Adobe AI
 considered the entire flow of the game and how players interact with the screen. As a result of doing more in-depth research and thinking about the sensor and Unity interaction part of the game, I had to change some of the game mechanics, and the in-game UI.
