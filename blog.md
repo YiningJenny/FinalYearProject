@@ -8,11 +8,11 @@ I want to change the game background and other game assets. So I talk to my frie
 
 [Image from Wiki](https://en.wikipedia.org/wiki/Oracle_bone_script)
 
-- Ding (鼎) - Oracle bone scripts were inscribed on tortoise shells or animal bones by the royal family in the late Shang Dynasty for the purpose of divination and record-keeping, and are the earliest known systematic and matured scripts in China and East Asia. The bronze Ding is one of the most important and iconic artefacts of the Shang Dynasty.
+- Ding (鼎) - Chinese bronze casting and pottery progressed during the Shang dynasty, and bronze was often used for objects of ceremonial significance rather than primarily for utilitarian purposes. The bronze Ding is one of the most important and iconic artefacts of the Shang Dynasty.
 
-![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/b0486406-f306-4ccf-a3f0-66b88574fe65)
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/85238879-691a-4d76-90c4-a72f2d901c76)
 
-[Resources from Wiki](https://en.wikipedia.org/wiki/Oracle_bone_script)
+[Resources from Wiki](https://en.wikipedia.org/wiki/Shang_dynasty)
 
 The evolution of Ding character:
 
@@ -20,13 +20,15 @@ The evolution of Ding character:
 
 [Resource from Wiki dictionary](https://zh.wiktionary.org/zh/%E9%BC%8E)
 
-- Sun and moon -
+- Sun and moon - Shang religious rituals featured divination and sacrifice. Shang Dynasty people observed astronomical signs and used them to calculate the dates of religious rituals and divination activities. Additionally, the astronomical and celestial records of the Shang Dynasty and the use of the stem-and-branch method of timekeeping are reflected in the oracle bone inscriptions.
+
+[Resources from Wiki](https://en.wikipedia.org/wiki/Shang_dynasty)
 
 - The black bird - In mythology, the Shang dynasty believed themselves to be descendants of the black bird.
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/659d259a-da10-49c1-8ab2-f9610035ca58)
 
-  [Image from web](https://baike.baidu.com/reference/4390795/f88apGq3NpDWad8B-gKntk1vJ_syo7ITFDs8ewI4RMSKTU3LyLX43u8axhMZlP8fPl8RU0fD4GmGh8h0b3p2IAl0QDg1brPuw6rPAs9nbi0ljneaLAESsi2CjEydlQc)
+[Image from web](https://baike.baidu.com/reference/4390795/f88apGq3NpDWad8B-gKntk1vJ_syo7ITFDs8ewI4RMSKTU3LyLX43u8axhMZlP8fPl8RU0fD4GmGh8h0b3p2IAl0QDg1brPuw6rPAs9nbi0ljneaLAESsi2CjEydlQc)
   
 
 
