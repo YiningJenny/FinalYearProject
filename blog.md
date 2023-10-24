@@ -1,10 +1,17 @@
 ## 26 June - Arduino Bluetooth module
 
-I talked to Matt and asked bluetooth, he gave me some suggestions and different sensors. I did some research for each of them.
+I talked to Matt and asked bluetooth, he gave me some suggestions and different sensors. I did some research for each of them. My plan was try them all during summer holiday.
 
 [Arduino Nina Github library](https://github.com/sparkfun/SparkFun_Thing_Plus_NINA-B306/tree/main/Firmware/Examples)
 
 [Nina documents](https://learn.sparkfun.com/tutorials/sparkfun-thing-plus---nina-b306-hookup-guide/all?print=1)
+
+[How to use Bluetooth module with arduino (SPP-C and HC-05 tutorial)](https://youtu.be/Jn1WaDe-4tU?si=RXOUn4rWFQT4N5f4)
+
+[HC-05 Bluetooth Module Interfacing with Arduino UNO](https://www.electronicwings.com/arduino/hc-05-bluetooth-module-interfacing-with-arduino-uno)
+
+## 14 July - Tutorial with Mahalia
+I talked to Mahalia about my project plan. I havn't decided what to do but generally base on last term's group work---
 
 ## 17 - 18 August : flow chart and sketch diagram in Adobe AI
 considered the entire flow of the game and how players interact with the screen. As a result of doing more in-depth research and thinking about the sensor and Unity interaction part of the game, I had to change some of the game mechanics, and the in-game UI.
