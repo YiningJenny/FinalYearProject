@@ -8,7 +8,9 @@ From Seamus:
 
 [Teesy - Cheap](https://coolcomponents.co.uk/collections/teensy?gclid=CjwKCAjwm4ukBhAuEiwA0zQxkyvt6xCOVzX7DUK9eDRKD7llE-vxhqkVarrxBbpTG-SXde3E6P9KYhoCLFQQAvD_BwE)
 
-[ESP32 - bluetooth](https://www.lkrelecic.com/detail/olimex-ltd/esp-wroom-32/52934?gclid=CjwKCAjwm4ukBhAuEiwA0zQxkybNGtTu_Uop5Hp7m7XfU-yCfvW_h7f3k_IBXdeUSfwWr9sacZ4TtRoCEbcQAvD_BwE)
+[ESP32 - bluetooth](https://docs.arduino.cc/hardware/nano-esp32)
+
+From Matt:
 
 [Arduino Nina Github library](https://github.com/sparkfun/SparkFun_Thing_Plus_NINA-B306/tree/main/Firmware/Examples)
 
