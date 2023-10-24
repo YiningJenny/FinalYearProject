@@ -1,4 +1,12 @@
-## 17 - 18 August : flow chart and sketch diagram in AI
+## 26 June - Arduino Bluetooth module
+
+I talked to Matt and asked bluetooth, he gave me some suggestions and different sensors. I did some research for each of them.
+
+[Arduino Nina Github library](https://github.com/sparkfun/SparkFun_Thing_Plus_NINA-B306/tree/main/Firmware/Examples)
+
+[Nina documents](https://learn.sparkfun.com/tutorials/sparkfun-thing-plus---nina-b306-hookup-guide/all?print=1)
+
+## 17 - 18 August : flow chart and sketch diagram in Adobe AI
 considered the entire flow of the game and how players interact with the screen. As a result of doing more in-depth research and thinking about the sensor and Unity interaction part of the game, I had to change some of the game mechanics, and the in-game UI.
 - Level 3: __Chinese character formation in a grid using sections.__ “森” or “晖”&“晕”？ and how to interact? (The idea so far is to have three sensors on the top left and right for selecting text relative to the position on the screen. But i can only do "confirmation" like clicking instead of "selection" like computer mouse movement)  ___I need to check with Mahalia___
 - Level 4: __horizontal board game.__ aiming to encourage players to practice speaking Chinese. players need to read specific Chinese sentences and control the game character to move smoothly. ___game map references some voice-activated games___
@@ -130,5 +138,5 @@ void loop()
 
 __Useful online resources:__
 
-[Setting up Bluetooth HC-05 with Arduino](https://www.exploreembedded.com/wiki/Setting_up_Bluetooth_HC-05_with_Arduino)
-[HC-05 Documentation](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.rcscomponents.kiev.ua/datasheets/hc_hc-05-user-instructions-bluetooth.pdf)
+- [Setting up Bluetooth HC-05 with Arduino](https://www.exploreembedded.com/wiki/Setting_up_Bluetooth_HC-05_with_Arduino)
+- [HC-05 Documentation](https://www.rcscomponents.kiev.ua/datasheets/hc_hc-05-user-instructions-bluetooth.pdf)
