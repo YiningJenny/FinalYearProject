@@ -89,13 +89,46 @@ I will keep both of the two version for inviting people play my game, and do fur
   
 ## 24th Oct - Tutorial with Lieven
 
-I talked to Lieven to figure out the bluetooth module. I tried bluetooth moodule during summer vancancy but failed with the connection. But I've got some progress after talking to Lieven.
+I talked to Lieven to figure out the __HC-05__ bluetooth module. I tried bluetooth moodule during summer vancancy but failed with the connection. We didn't totally succeed but fortunately I've got some progress after talking to Lieven.
 The issues are listing below:
 
 - I couldn't communicate from Arduino monitor to the HC-05 sensor.(It should be possible by online tutorial)
+- My devices(including laptop and mobile phone) are unable to find the HC-05 through bluetooth.
+
+The result was I successfully talk to HC-05 from Arduino Monitor and set up everything that we need for communication, including resetting the master-slave role command, setting memory command, resetting the password command. The circuit diagram is showing below:
+
+![circuit diagram](https://github.com/YiningJenny/FinalYearProject/assets/119497753/600d83af-74fc-40e2-8ece-b68fd217f5dd)
+
+I think the reason why I failed was because I didn't use specific resistors (1.1k and 3.3k). 
+
+The Arduino code:
+
+```C++
+#include <SoftwareSerial.h>
+SoftwareSerial EEBlue(10, 11); // RX | TX
+ 
+void setup()
+{
+  Serial.begin(9600);
+  EEBlue.begin(38400);  //Baud Rate for command Mode. 
+  Serial.println("Enter AT commands!");
+}
+ 
+void loop()
+{
+ 
+  // Feed any data from bluetooth to Terminal.
+  if (EEBlue.available())
+    Serial.write(EEBlue.read());
+ 
+  // Feed all data from termial to bluetooth
+  if (Serial.available())
+    EEBlue.write(Serial.read());
+}
+```
 
 
-__Online resources:__
+__Useful online resources:__
 
 [Setting up Bluetooth HC-05 with Arduino](https://www.exploreembedded.com/wiki/Setting_up_Bluetooth_HC-05_with_Arduino)
 [HC-05 Documentation](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.rcscomponents.kiev.ua/datasheets/hc_hc-05-user-instructions-bluetooth.pdf)
