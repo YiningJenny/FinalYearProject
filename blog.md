@@ -1,6 +1,14 @@
 ## 26 June - Arduino Bluetooth module
 
-I talked to Matt and asked bluetooth, he gave me some suggestions and different sensors. I did some research for each of them. My plan was try them all during summer holiday.
+I talked to Seamus and Matt and asked bluetooth, he gave me some suggestions and different sensors. I did some research for each of them. My plan was try them all during summer holiday.
+
+From Seamus:
+
+[Arduino Nano - blue tooth and wifi mode](https://www.mouser.co.uk/new/arduino/arduino-nano-every/?gclid=CjwKCAjwm4ukBhAuEiwA0zQxk8pebY_n3LenPcEZbYStm7q59uXyPWi-HoET1vFCzV8QOK2hvlKi3hoC4oYQAvD_BwE)
+
+[Teesy - Cheap](https://coolcomponents.co.uk/collections/teensy?gclid=CjwKCAjwm4ukBhAuEiwA0zQxkyvt6xCOVzX7DUK9eDRKD7llE-vxhqkVarrxBbpTG-SXde3E6P9KYhoCLFQQAvD_BwE)
+
+[ESP32 - bluetooth](https://www.lkrelecic.com/detail/olimex-ltd/esp-wroom-32/52934?gclid=CjwKCAjwm4ukBhAuEiwA0zQxkybNGtTu_Uop5Hp7m7XfU-yCfvW_h7f3k_IBXdeUSfwWr9sacZ4TtRoCEbcQAvD_BwE)
 
 [Arduino Nina Github library](https://github.com/sparkfun/SparkFun_Thing_Plus_NINA-B306/tree/main/Firmware/Examples)
 
@@ -11,7 +19,14 @@ I talked to Matt and asked bluetooth, he gave me some suggestions and different 
 [HC-05 Bluetooth Module Interfacing with Arduino UNO](https://www.electronicwings.com/arduino/hc-05-bluetooth-module-interfacing-with-arduino-uno)
 
 ## 14 July - Tutorial with Mahalia
-I talked to Mahalia about my project plan. I havn't decided what to do but generally base on last term's group work---[Legend of Hanzi](https://github.com/YiningJenny/A.C.E_Docs). 
+I talked to Mahalia about my project plan. I havn't totally decided what to do but generally base on last term's group work---[Legend of Hanzi](https://github.com/YiningJenny/A.C.E_Docs). I asked my groupmates, they don't mind about I keep developping this project.
+
+My to-do list after talking to Mahalia:
+- Assessment brief - help me explain my project to others 
+- Ethics approval form - needed to be approved before data collection
+- Time schedule - make a timetable
+- Sketch - something like illustration with draft, also helps me explaining my project
+- Technic list - Code, physical sensors, software…
 
 ## 17 - 18 August : flow chart and sketch diagram in Adobe AI
 considered the entire flow of the game and how players interact with the screen. As a result of doing more in-depth research and thinking about the sensor and Unity interaction part of the game, I had to change some of the game mechanics, and the in-game UI.
