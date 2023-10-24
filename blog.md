@@ -1,3 +1,35 @@
+## 25th June - Game Art design
+
+I want to change the game background and other game assets. So I talk to my friend who is very good at painting. We decide to add more meaning to the arts design. The earliest Chinese hieroglyphics were found in Shang Dynasty, so we want to explore more related historic elements based on Shang dynasty. Here I list some of the components that match my project theme:
+
+- Oracle bone script - This is the Chinese character that is oldest known form of Chinese writing.
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/ab747c95-4639-4a3d-b6a8-5dd4454cd917)
+
+[Image from Wiki](https://en.wikipedia.org/wiki/Oracle_bone_script)
+
+- Ding (鼎) - Oracle bone scripts were inscribed on tortoise shells or animal bones by the royal family in the late Shang Dynasty for the purpose of divination and record-keeping, and are the earliest known systematic and matured scripts in China and East Asia. The bronze Ding is one of the most important and iconic artefacts of the Shang Dynasty.
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/b0486406-f306-4ccf-a3f0-66b88574fe65)
+
+[Resources from Wiki](https://en.wikipedia.org/wiki/Oracle_bone_script)
+
+The evolution of Ding character:
+
+![鼎](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d07bf543-773e-444c-84be-0eeb4fc184d7)
+
+[Resource from Wiki dictionary](https://zh.wiktionary.org/zh/%E9%BC%8E)
+
+- Sun and moon -
+
+- The black bird - In mythology, the Shang dynasty believed themselves to be descendants of the black bird.
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/659d259a-da10-49c1-8ab2-f9610035ca58)
+
+  [Image from web](https://baike.baidu.com/reference/4390795/f88apGq3NpDWad8B-gKntk1vJ_syo7ITFDs8ewI4RMSKTU3LyLX43u8axhMZlP8fPl8RU0fD4GmGh8h0b3p2IAl0QDg1brPuw6rPAs9nbi0ljneaLAESsi2CjEydlQc)
+  
+
+
 ## 26 June - Arduino Bluetooth module
 
 I talked to Seamus and Matt and asked bluetooth, he gave me some suggestions and different sensors. I did some research for each of them. My plan was try them all during summer holiday.
@@ -31,7 +63,14 @@ My to-do list after talking to Mahalia:
 - Technic list - Code, physical sensors, software…
 
 ## 12th Aug - Research on game machanics
-在这里放老刘的word文档内容和notion中的我对游戏机制的想法
+
+__Some level design thoughts:__
+
+- Players need to dance in the field character grid. The Chinese character is divided into different stroke parts, players step on the correct stroke, the corresponding part of the field character grid will light up, all step on the character is considered to be finished writing the word. Otherwise I can place different sensors in different positions according to the radicals, for example the radical armature (纟) is in the left part.
+- Speaking practise - speech recognition
+- Interactive projection
+  
+![field grid sketch](https://github.com/YiningJenny/FinalYearProject/assets/119497753/2ddfce30-7b5d-4a25-b8ec-a1dd83fe7310)
 
 ## 17 - 18 August : flow chart and sketch diagram in Adobe AI
 considered the entire flow of the game and how players interact with the screen. As a result of doing more in-depth research and thinking about the sensor and Unity interaction part of the game, I had to change some of the game mechanics, and the in-game UI.
