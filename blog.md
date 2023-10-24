@@ -30,6 +30,9 @@ My to-do list after talking to Mahalia:
 - Sketch - something like illustration with draft, also helps me explaining my project
 - Technic list - Code, physical sensors, software…
 
+## 12th Aug - Research on game machanics
+在这里放老刘的word文档内容和notion中的我对游戏机制的想法
+
 ## 17 - 18 August : flow chart and sketch diagram in Adobe AI
 considered the entire flow of the game and how players interact with the screen. As a result of doing more in-depth research and thinking about the sensor and Unity interaction part of the game, I had to change some of the game mechanics, and the in-game UI.
 - Level 3: __Chinese character formation in a grid using sections.__ “森” or “晖”&“晕”？ and how to interact? (The idea so far is to have three sensors on the top left and right for selecting text relative to the position on the screen. But i can only do "confirmation" like clicking instead of "selection" like computer mouse movement)  ___I need to check with Mahalia___
