@@ -230,7 +230,7 @@ __Useful online resources:__
 - solder everything - measure the dark lab distance
 - wireless - book Matt
 - voice controlling
-- gilding the lily: make Level 3 more beautiful - consider a long vertical map instead of endless. cover part of the scene and do some arts design to let player know the game scene is moving down.
+- gilding the lily: make Level 5 more beautiful - consider a long vertical map instead of endless. cover part of the scene and do some arts design to let player know the game scene is moving down.
 - make my bow ROBUST and STREAMLINED - either wired or wireless. can use a smaller arduino board like Arduino NINA, then I can attach it to the bow
 
 ### measuring
