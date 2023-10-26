@@ -219,3 +219,28 @@ __Useful online resources:__
 
 - [Setting up Bluetooth HC-05 with Arduino](https://www.exploreembedded.com/wiki/Setting_up_Bluetooth_HC-05_with_Arduino)
 - [HC-05 Documentation](https://www.rcscomponents.kiev.ua/datasheets/hc_hc-05-user-instructions-bluetooth.pdf)
+
+## 26th - Toturial with Mahalia - my game is currently playable
+
+- Level 2: can add some text or induction like "How the words evoluted"
+- Level 5: the elements and introductions are very interesting, I can add more narrative in this level.
+
+### next step:
+
+- solder everything - measure the dark lab distance
+- wireless - book Matt
+- voice controlling
+- gilding the lily: make Level 3 more beautiful - consider a long vertical map instead of endless. cover part of the scene and do some arts design to let player know the game scene is moving down.
+- make my bow ROBUST and STREAMLINED - either wired or wireless. can use a smaller arduino board like Arduino NINA, then I can attach it to the bow
+
+### measuring
+
+- I went to the dark lab and sketched the game space
+
+![dark lab reasure](https://github.com/YiningJenny/FinalYearProject/assets/119497753/3fa789d5-b464-4d2f-93e5-79018f211369)
+
+### game arts design
+
+I plan to make a new long vertical map and collage of representative artefacts from different eras as the new level. need to do more research. can refer to the Yangtze and Yellow River's shape cuz they are two main rivers in China. I talked to my friend Yang, she can help me do the map drawing.
+
+![level draft](https://github.com/YiningJenny/FinalYearProject/assets/119497753/7f3e2e50-f0f5-4848-9acc-09c8ac5a8b95)
