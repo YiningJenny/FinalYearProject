@@ -244,3 +244,7 @@ __Useful online resources:__
 I plan to make a new long vertical map and collage of representative artefacts from different eras as the new level. need to do more research. can refer to the Yangtze and Yellow River's shape cuz they are two main rivers in China. I talked to my friend Yang, she can help me do the map drawing.
 
 ![level draft](https://github.com/YiningJenny/FinalYearProject/assets/119497753/7f3e2e50-f0f5-4848-9acc-09c8ac5a8b95)
+
+## 27th Oct - Soldering
+
+[FRS Reference (circuit diagram and code)](https://www.circuits-diy.com/interfacing-force-sensing-resistor-fsr-with-arduino-uno/)
