@@ -248,3 +248,9 @@ I plan to make a new long vertical map and collage of representative artefacts f
 ## 27th Oct - Soldering
 
 [FRS Reference (circuit diagram and code)](https://www.circuits-diy.com/interfacing-force-sensing-resistor-fsr-with-arduino-uno/)
+
+## 28th Oct - Speech recognition Test
+
+[Speech to text API with C#](https://codelabs.developers.google.com/codelabs/cloud-speech-text-csharp#1)
+
+![TerminalScreenshot](https://github.com/YiningJenny/FinalYearProject/assets/119497753/9bb3e474-4d40-4cac-8127-24e64b7de3b2)
