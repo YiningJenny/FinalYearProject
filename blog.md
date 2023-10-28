@@ -251,6 +251,45 @@ I plan to make a new long vertical map and collage of representative artefacts f
 
 ## 28th Oct - Speech recognition Test
 
+I firstly tried the speech to text recognition API. I followed the setup guidance linked below:
+
 [Speech to text API with C#](https://codelabs.developers.google.com/codelabs/cloud-speech-text-csharp#1)
+
+I replaced origin SpeechToTextApiDemo code with the code I show below: (with comments)
+
+```C#
+using Google.Cloud.Speech.V1;
+using System;
+
+namespace SpeechToTextApiDemo
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var speech = SpeechClient.Create();
+            var config = new RecognitionConfig
+            {
+                Encoding = RecognitionConfig.Types.AudioEncoding.Flac, // tells the API which type of audio encoding I'm using for the audio file. Flac is the encoding type for .raw files
+                SampleRateHertz = 16000,
+                LanguageCode = LanguageCodes.English.UnitedStates // set the language
+            };
+            var audio = RecognitionAudio.FromStorageUri("gs://cloud-samples-tests/speech/brooklyn.flac");         // I can pass the API either the uri of audio file in Cloud Storage or the local file path for the audio file. Here, I'm using a Cloud Storage uri.
+            
+            var response = speech.Recognize(config, audio);
+
+            foreach (var result in response.Results)
+            {
+                foreach (var alternative in result.Alternatives)
+                {
+                    Console.WriteLine(alternative.Transcript);
+                }
+            }
+        }
+    }
+}
+```
+
+Setup code and running output:
 
 ![TerminalScreenshot](https://github.com/YiningJenny/FinalYearProject/assets/119497753/9bb3e474-4d40-4cac-8127-24e64b7de3b2)
