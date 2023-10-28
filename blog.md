@@ -303,3 +303,7 @@ _This API has a powerful multi-language voice-to-text conversion feature. Howeve
 I tried a Unity [Speech Recognition Package](https://github.com/huggingface/blog/blob/main/unity-api.md). But to use this package, the minimal Unity version should be 2020.3, I'm on 2019.3. So I can't use this either.
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/9296bb43-d285-4b95-adea-f12cb21393a3)
+
+### Third trial
+
+I found another [How to Add Voice Recognition to Your Game - Unity Tutorial](https://youtu.be/29vyEOgsW8s?si=k5xTsibSpG65xe7L) on YouTube. 
