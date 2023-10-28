@@ -251,6 +251,8 @@ I plan to make a new long vertical map and collage of representative artefacts f
 
 ## 28th Oct - Speech recognition Test
 
+### First trial
+
 I firstly tried the speech to text recognition API. I followed the setup guidance linked below:
 
 [Speech to text API with C#](https://codelabs.developers.google.com/codelabs/cloud-speech-text-csharp#1)
@@ -293,3 +295,11 @@ namespace SpeechToTextApiDemo
 Setup code and running output:
 
 ![TerminalScreenshot](https://github.com/YiningJenny/FinalYearProject/assets/119497753/9bb3e474-4d40-4cac-8127-24e64b7de3b2)
+
+_This API has a powerful multi-language voice-to-text conversion feature. However, I think the functionality of this API is better suited to transcribing pre-recorded audio files to text, whereas I want the speech recognition functionality of the real thing interaction. So I don't think this API is suitable for my project._
+
+### Second trial
+
+I tried a Unity [Speech Recognition Package](https://github.com/huggingface/blog/blob/main/unity-api.md). But to use this package, the minimal Unity version should be 2020.3, I'm on 2019.3. So I can't use this either.
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/9296bb43-d285-4b95-adea-f12cb21393a3)
