@@ -8,6 +8,10 @@ I want to change the game background and other game assets. So I talk to my frie
 
 [Image from Wiki](https://en.wikipedia.org/wiki/Oracle_bone_script)
 
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/4e51b593-9b78-4736-8dd6-7fd65084d4ce)
+
+![BG_Black](https://github.com/YiningJenny/FinalYearProject/assets/119497753/3cb084cb-ebf1-4f0d-af15-311eb26aca64)
+
 - Ding (鼎) - Chinese bronze casting and pottery progressed during the Shang dynasty, and bronze was often used for objects of ceremonial significance rather than primarily for utilitarian purposes. The bronze Ding is one of the most important and iconic artefacts of the Shang Dynasty.
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/85238879-691a-4d76-90c4-a72f2d901c76)
@@ -387,4 +391,4 @@ public class VoiceMovement : MonoBehaviour
 - [mechanics testing video](https://youtu.be/jzQ5CZeS-Wg?si=4zDvYW9h8yxAZu4I)
 - [players testing video](https://youtu.be/Cd7srd1fWBs?si=7SgeRkTpOzcf6agv)
 
-_The test results show a very serious delay in speech recognition, which seriously affects the player's game experience. I currently believe the delay is due to poor laptop radio, I will test again tomorrow with a wireless headset._
+_The test results show a very serious delay in speech recognition, which seriously affects the player's game experience. I currently believe the delay is due to poor laptop radio, I will test again tomorrow with a wireless headset. Also, I think the game become much more difficult if controlled by speech, so I removed the spikes on buttom of the creeen._
