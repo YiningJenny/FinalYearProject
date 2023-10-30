@@ -365,14 +365,15 @@ public class VoiceMovement : MonoBehaviour
     private void Left()
     {
         transform.Translate(Vector3.left * speed * Time.deltaTime);
-        transform.localScale = new Vector3(-1, 1, 1);
+        transform.localScale = new Vector3(-1, 1, 1); // face direction
         anim.SetFloat("speed", Mathf.Abs(rb.velocity.x)); // running animation
     }
 
     private void Right()
     {
         transform.Translate(Vector3.right * speed * Time.deltaTime);
-        transform.localScale = new Vector3(1, 1, 1);
+        transform.localScale = new Vector3(1, 1, 1); // face direction
+        anim.SetFloat("speed", Mathf.Abs(rb.velocity.x)); // running animation
     }
 
     private void Up()
