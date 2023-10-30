@@ -313,3 +313,72 @@ I found another [How to Add Voice Recognition to Your Game - Unity Tutorial](htt
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/4c911356-2b35-492e-8f6a-6ac5444e2fb4)
 
 - Secondly, I used Speech library in Unity. I wanted a keyword to call functions, so I need a dictionary with string(keyword) and function(events)
+
+- The full Speech recognize code:
+
+```C#
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System;
+using UnityEngine;
+using UnityEngine.Windows.Speech;
+
+public class VoiceMovement : MonoBehaviour
+{
+    private KeywordRecognizer keywordRecognizer;
+    private Dictionary<string,Action> actions = new Dictionary<string, Action>();
+
+
+    public float speed;
+
+    public playerController_L4 playerController_L4;
+
+    Rigidbody2D rb;
+    Animator anim;
+
+    void Start()
+    {
+        
+        actions.Add("左", Left);
+        actions.Add("left", Left);
+        actions.Add("右", Right);
+        actions.Add("right", Right);
+        actions.Add("上", Up);
+
+
+        keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
+        keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
+        keywordRecognizer.Start();
+
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+
+    }
+
+    private void RecognizedSpeech(PhraseRecognizedEventArgs speech)
+    {
+        Debug.Log(speech.text);
+        actions[speech.text].Invoke();
+    }
+
+    private void Left()
+    {
+        transform.Translate(Vector3.left * speed * Time.deltaTime);
+        transform.localScale = new Vector3(-1, 1, 1);
+        anim.SetFloat("speed", Mathf.Abs(rb.velocity.x)); // running animation
+    }
+
+    private void Right()
+    {
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
+        transform.localScale = new Vector3(1, 1, 1);
+    }
+
+    private void Up()
+    {
+        transform.Translate(Vector3.up * speed * Time.deltaTime);
+    }
+}
+
+```
