@@ -384,4 +384,7 @@ public class VoiceMovement : MonoBehaviour
 
 ```
 
-- [player test video:](https://youtu.be/jzQ5CZeS-Wg?si=4zDvYW9h8yxAZu4I)
+- [mechanics testing video](https://youtu.be/jzQ5CZeS-Wg?si=4zDvYW9h8yxAZu4I)
+- [players testing video](https://youtu.be/Cd7srd1fWBs?si=7SgeRkTpOzcf6agv)
+
+_The test results show a very serious delay in speech recognition, which seriously affects the player's game experience. I currently believe the delay is due to poor laptop radio, I will test again tomorrow with a wireless headset._
