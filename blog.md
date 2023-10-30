@@ -307,3 +307,7 @@ I tried a Unity [Speech Recognition Package](https://github.com/huggingface/blog
 ### Third trial
 
 I found another [How to Add Voice Recognition to Your Game - Unity Tutorial](https://youtu.be/29vyEOgsW8s?si=k5xTsibSpG65xe7L) on YouTube. 
+
+- Firstly, I need to enable my microphone in Unity. It's in player settings
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/4c911356-2b35-492e-8f6a-6ac5444e2fb4)
