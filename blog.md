@@ -311,3 +311,5 @@ I found another [How to Add Voice Recognition to Your Game - Unity Tutorial](htt
 - Firstly, I need to enable my microphone in Unity. It's in player settings
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/4c911356-2b35-492e-8f6a-6ac5444e2fb4)
+
+- Secondly, I used Speech library in Unity. I wanted a keyword to call functions, so I need a dictionary with string(keyword) and function(events)
