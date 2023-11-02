@@ -392,3 +392,15 @@ public class VoiceMovement : MonoBehaviour
 - [players testing video](https://youtu.be/Cd7srd1fWBs?si=7SgeRkTpOzcf6agv)
 
 _The test results show a very serious delay in speech recognition, which seriously affects the player's game experience. I currently believe the delay is due to poor laptop radio, I will test again tomorrow with a wireless headset. Also, I think the game become much more difficult if controlled by speech, so I removed the spikes on buttom of the creeen._
+
+## 2nd Nov
+
+I tried to build a new metal material in Unity, and build a new _Ding_ word for my Level 1.
+
+New material application and different version of Ding model:
+
+<img width="1694" alt="image" src="https://github.com/YiningJenny/FinalYearProject/assets/119497753/62b985d0-3f49-4997-bbd4-c92996817c03">
+
+How did I build it in blender: [Blender screen record](https://youtu.be/Kj2YJ270xbs)
+
+[Video tutorial resource](https://www.bilibili.com/video/BV1PV4y1Z73e/?spm_id_from=333.788&vd_source=eb2e63b03ba34f8273cf1f5dfca2021a)
