@@ -417,6 +417,7 @@ New material application and different version of Ding model:
 
 <img width="1694" alt="image" src="https://github.com/YiningJenny/FinalYearProject/assets/119497753/62b985d0-3f49-4997-bbd4-c92996817c03">
 
+
 How did I build it in blender: [Blender screen record](https://youtu.be/Kj2YJ270xbs)
 
-[Video tutorial resource](https://www.bilibili.com/video/BV1PV4y1Z73e/?spm_id_from=333.788&vd_source=eb2e63b03ba34f8273cf1f5dfca2021a)
+Online reference: [Video tutorial resource](https://www.bilibili.com/video/BV1PV4y1Z73e/?spm_id_from=333.788&vd_source=eb2e63b03ba34f8273cf1f5dfca2021a)
