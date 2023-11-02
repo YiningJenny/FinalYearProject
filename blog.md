@@ -393,9 +393,25 @@ public class VoiceMovement : MonoBehaviour
 
 _The test results show a very serious delay in speech recognition, which seriously affects the player's game experience. I currently believe the delay is due to poor laptop radio, I will test again tomorrow with a wireless headset. Also, I think the game become much more difficult if controlled by speech, so I removed the spikes on buttom of the creeen._
 
-## 2nd Nov
+## 31st Oct - 
 
-I tried to build a new metal material in Unity, and build a new _Ding_ word for my Level 1.
+_Hi, does anyone know how to import 3d models with texture from c4d to Unity? I tried .fbx and .obj and .dae but all failed. The models in Unity are all plain without any textures. I'm on c4d OC texture_
+
+<img width="265" alt="image" src="https://github.com/YiningJenny/FinalYearProject/assets/119497753/473b6071-c1fa-44fe-9794-d94d4e5ad467">
+
+## 2nd Nov - Tutorial with Mahalia
+
+I almost finished all of the programming in Unity, we tested the whole game together and get some insight feedback. (Basically all about UI and UE.)
+
+- Level 1
+  - The way how players interat with a bow is quite funny. Add more hieroglyphics to make the level more complicate, then they spend more time in this level.
+  - Replace the voice induction into Chinese version.
+- Level 5
+  - Add some text inductions before the game start, then players know what to do.
+  - Zoom out the story panel, to make the text easy to read.
+  - Add a close button to the story panel, also add speech recognition to close the panel.
+
+We also tried to figure out why the C4d texture didn't work in Unity. I tried to build a new metal material in Unity, and build a new _Ding_ word for my Level 1.
 
 New material application and different version of Ding model:
 
