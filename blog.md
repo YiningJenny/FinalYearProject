@@ -421,3 +421,7 @@ New material application and different version of Ding model:
 How did I build it in blender: [Blender screen record](https://youtu.be/Kj2YJ270xbs)
 
 Online reference: [Video tutorial resource](https://www.bilibili.com/video/BV1PV4y1Z73e/?spm_id_from=333.788&vd_source=eb2e63b03ba34f8273cf1f5dfca2021a)
+
+## 6th Nov - Ding evolution animation
+
+I use (Runaway Interpolation)[https://runwayml.com/ai-magic-tools/frame-interpolation/] to make the evolution animation.
