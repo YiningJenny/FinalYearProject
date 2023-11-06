@@ -424,9 +424,10 @@ Online reference: [Video tutorial resource](https://www.bilibili.com/video/BV1PV
 
 ## 6th Nov - Ding evolution animation
 
-To show the evolution of 鼎(Ding) hieroglyphics, I chose four generations of the Ding character from different dynasties. To make the animation more smooth, I used [Runaway Interpolation](https://app.runwayml.com/ai-tools/frame-interpolation) to make the evolution animation. And then I used [CloudConvert](https://cloudconvert.com/mp4-to-gif), which allowed me to transfer .mp4 file into .gif file. That's because I need to edit every frame in Photoshop, and only .gif file would be automatically splited into frames by Photoshop.
+To show the evolution of 鼎(Ding) hieroglyphics, I chose four generations of the Ding character from different dynasties. To make the animation more smooth, I used [Runaway Interpolation](https://app.runwayml.com/ai-tools/frame-interpolation) to make the evolution animation. And then I used [CloudConvert](https://cloudconvert.com/mp4-to-gif), which allowed me to transfer .mp4 file into .gif file. That's because I need to edit every frame in Photoshop, and only [.gif](https://github.com/YiningJenny/FinalYearProject/blob/main/interpolation2.gif) file would be automatically splited into frames by Photoshop.
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/bc696e58-112e-40b1-91f3-54bb8ce3a2ef)
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/7fd5d7e6-8de5-473b-909a-843de870c24c)
 
+![image](https://github.com/YiningJenny/FinalYearProject/blob/main/interpolation2.gif)
