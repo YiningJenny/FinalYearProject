@@ -541,4 +541,10 @@ Testing result showed that the sensor actually worked very well. And that's when
 
 ![微信图片_20231107154012](https://github.com/YiningJenny/FinalYearProject/assets/119497753/342134a5-695b-4341-bc6b-b3884fbe68f9)
 
-Then I replaced the ground wire and everything went so smooth and perfect...
+I replaced the ground wire and everything went so smooth and perfect...
+
+---
+
+Then I continued finishing the user interface (UI) left. I redesigned the game start scene.
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/795db5cc-9d44-42c9-abd3-8613e8a618bf)
