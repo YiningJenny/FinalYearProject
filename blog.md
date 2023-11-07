@@ -545,9 +545,11 @@ I replaced the ground wire and everything went so smooth and perfect...
 
 ---
 
-Then I continued finishing the user interface (UI) left. I redesigned the game start scene.
+Then I continued finishing the user interface (UI) left. I redesigned the game start scene and add text instruments to each level.
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/795db5cc-9d44-42c9-abd3-8613e8a618bf)
+
+[补上每一关文字提示的截图]
 
 ---
 
