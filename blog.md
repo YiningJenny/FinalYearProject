@@ -548,3 +548,9 @@ I replaced the ground wire and everything went so smooth and perfect...
 Then I continued finishing the user interface (UI) left. I redesigned the game start scene.
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/795db5cc-9d44-42c9-abd3-8613e8a618bf)
+
+---
+
+I found some Chinese triditional style music for my game background music:
+- [Game start scene - 万神纪](https://www.bilibili.com/video/BV1wx41127TM/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=eb2e63b03ba34f8273cf1f5dfca2021a)
+- [Level 5 - 九九八十一](https://www.bilibili.com/video/BV1Ls411Q7iM/?share_source=copy_web&vd_source=f13076e590d71ce036a88a28071390d4)
