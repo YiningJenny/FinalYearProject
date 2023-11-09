@@ -393,6 +393,13 @@ public class VoiceMovement : MonoBehaviour
 
 _The test results show a very serious delay in speech recognition, which seriously affects the player's game experience. I currently believe the delay is due to poor laptop radio, I will test again tomorrow with a wireless headset. Also, I think the game become much more difficult if controlled by speech, so I removed the spikes on buttom of the creeen._
 
+
+## 29th Nov - Level 5 game background redesign
+
+![f9934e1d6dcfe3b2e16bc1e4b19e05b](https://github.com/YiningJenny/FinalYearProject/assets/119497753/a6bfce68-ef18-46d5-ba03-6236a674755e)
+
+I wanted to make a very long map for Level 5 with the combinition of Shang dynasty history. In Chinese literature, people like describing the timeline as a long river. Meanwhile, Yellow River is one of the most important and longest river in China. So I want to use Yellow River as a part of the game background. The green part of the draft is the block part that players can not go through. I plan to put some historical characters or antiques in the area to introduce the history of the Shang Dynasty.
+
 ## 31st Oct - 
 
 _Hi, does anyone know how to import 3d models with texture from c4d to Unity? I tried .fbx and .obj and .dae but all failed. The models in Unity are all plain without any textures. I'm on c4d OC texture_
@@ -549,10 +556,25 @@ Then I continued finishing the user interface (UI) left. I redesigned the game s
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/795db5cc-9d44-42c9-abd3-8613e8a618bf)
 
-[补上每一关文字提示的截图]
+![第一关UI截图](https://github.com/YiningJenny/FinalYearProject/assets/119497753/52f7dad9-90e2-4227-9e99-98034c908ed1)
+
+![第二关UI截图](https://github.com/YiningJenny/FinalYearProject/assets/119497753/b33b9532-c475-4d47-888f-cf335dededdf)
+
+![第五关UI截图](https://github.com/YiningJenny/FinalYearProject/assets/119497753/48e172fc-2599-4fe4-8282-a872756ac01d)
+
 
 ---
 
 I found some Chinese triditional style music for my game background music:
 - [Game start scene - 万神纪](https://www.bilibili.com/video/BV1wx41127TM/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=eb2e63b03ba34f8273cf1f5dfca2021a)
 - [Level 5 - 九九八十一](https://www.bilibili.com/video/BV1Ls411Q7iM/?share_source=copy_web&vd_source=f13076e590d71ce036a88a28071390d4)
+
+## 8th-9th Nov - sodering and installation/Tutorial with Mahalia
+
+![cac498417543f6f9492a38ff0c11e90](https://github.com/YiningJenny/FinalYearProject/assets/119497753/a0989b47-9b7a-4c5e-8a86-aab71d6faf55)
+
+![43a61c8086c5906e89317b456b0df56](https://github.com/YiningJenny/FinalYearProject/assets/119497753/c251e3a1-b993-49df-86b1-e602511955b2)
+
+I also updated my questionnair for tomorrow's filming and test - It's better to make every question clear and specific. Maybe the players prefer to answer "yes/no" question. But I can keep the detailed questions for those audience that wants to sit down and have a deep talk.
+
+[Updated question sheet]()
