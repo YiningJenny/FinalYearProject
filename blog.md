@@ -12,6 +12,8 @@ I want to change the game background and other game assets. So I talk to my frie
 
 ![BG_Black](https://github.com/YiningJenny/FinalYearProject/assets/119497753/3cb084cb-ebf1-4f0d-af15-311eb26aca64)
 
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/79abc1cc-8b81-4297-bc8d-6ddb44bee085)
+
 ---
 
 - Ding (鼎) - Chinese bronze casting and pottery progressed during the Shang dynasty, and bronze was often used for objects of ceremonial significance rather than primarily for utilitarian purposes. The bronze Ding is one of the most important and iconic artefacts of the Shang Dynasty.
@@ -96,6 +98,16 @@ __Some level design thoughts:__
 - Interactive projection
   
 ![field grid sketch](https://github.com/YiningJenny/FinalYearProject/assets/119497753/2ddfce30-7b5d-4a25-b8ec-a1dd83fe7310)
+
+---
+
+__Game scene arts design__
+
+My game art designer finished the game background as I required:
+
+Level 2 background:
+
+![老蒋背景图](https://github.com/YiningJenny/FinalYearProject/assets/119497753/17e05bb7-4349-43de-b6a9-e21f6a3d8348)
 
 ## 17 - 18 August : flow chart and sketch diagram in Adobe AI
 considered the entire flow of the game and how players interact with the screen. As a result of doing more in-depth research and thinking about the sensor and Unity interaction part of the game, I had to change some of the game mechanics, and the in-game UI.
