@@ -6,7 +6,7 @@ I want to change the game background and other game assets. So I talk to my frie
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/ab747c95-4639-4a3d-b6a8-5dd4454cd917)
 
-[Image from Wiki](https://en.wikipedia.org/wiki/Oracle_bone_script)
+['Oracle bone script' (2023) Wikipedia. Available at: https://en.wikipedia.org/wiki/Oracle_bone_script]
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/4e51b593-9b78-4736-8dd6-7fd65084d4ce)
 
@@ -22,33 +22,38 @@ Arguably, the most frequent, though also the most intriguing and mysterious, for
 
 ![Ding_(vessel),_China,_Shang_dynasty,_c _1500-1050_BCE,_HAA](https://github.com/YiningJenny/FinalYearProject/assets/119497753/dc2dc13f-5146-4aeb-a317-e865f93aa3b9)
 
+['Shang dynasty' (2023) Wikipedia. Available at: https://en.wikipedia.org/wiki/Shang_dynasty]
+
 So I also looked up into taotie decoration.
 
 <img width="445" alt="image" src="https://github.com/YiningJenny/FinalYearProject/assets/119497753/6e3456ef-0824-49fe-b687-ae39dd19b4e0">
 
-[Resources from Wiki](https://en.wikipedia.org/wiki/Shang_dynasty)
+['Taotie pattern, ferocious beauty! ' (2020) Baidu Encyclopedia. Available at: https://wapbaike.baidu.com/tashuo/browse/content?id=5274c6261de9e8fb8a4e834f]
 
 Additionally, I also find Ding characters interesting because its hieroglyphics looks like a cat. I want to introduce this word in Level 1 and make people feel confused. The evolution of Ding character:
 
 ![鼎](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d07bf543-773e-444c-84be-0eeb4fc184d7)
 
-[Resource from Wiki dictionary](https://zh.wiktionary.org/zh/%E9%BC%8E)
+['鼎' (2023) wiktionary. Available at: https://zh.wiktionary.org/zh/%E9%BC%8E]
 
 ---
 
 - Sun and moon - Shang religious rituals featured divination and sacrifice. Shang Dynasty people observed astronomical signs and used them to calculate the dates of religious rituals and divination activities. Additionally, the astronomical and celestial records of the Shang Dynasty and the use of the stem-and-branch method of timekeeping are reflected in the oracle bone inscriptions. In this case, sun and moon must be important to Shang civilisation.
 
-[Resources from Wiki](https://en.wikipedia.org/wiki/Shang_dynasty)
+['Shang dynasty' (2023) Wikipedia. Available at: https://en.wikipedia.org/wiki/Shang_dynasty]
 
 ---
 
 - The black bird - In mythology, the Shang dynasty believed themselves to be descendants of the black bird.
 
+> The founding myth of the Shang dynasty is described by Sima Qian in the Annals of the Yin. In the text, a woman named Jiandi, who was the second wife of Emperor Ku, swallowed an egg dropped by a black bird (玄鳥) and subsequently gave birth miraculously to Xie – also appearing as Qi (契). Xie is said to have helped Yu the Great to control the Great Flood and for his service to have been granted a place called Shang as a fief.
+
+['Shang dynasty' (2023) Wikipedia. Available at: https://en.wikipedia.org/wiki/Shang_dynasty]
+
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/659d259a-da10-49c1-8ab2-f9610035ca58)
 
-[Image from web](https://baike.baidu.com/reference/4390795/f88apGq3NpDWad8B-gKntk1vJ_syo7ITFDs8ewI4RMSKTU3LyLX43u8axhMZlP8fPl8RU0fD4GmGh8h0b3p2IAl0QDg1brPuw6rPAs9nbi0ljneaLAESsi2CjEydlQc)
-  
-[Resources from Wiki](https://en.wikipedia.org/wiki/Shang_dynasty)
+['Sun Bird Gold Foil - Exhibition of cultural relics abroad is prohibited' (2015) Archeology Encyclopedia. Available at: https://baike.baidu.com/reference/4390795/f88apGq3NpDWad8B-gKntk1vJ_syo7ITFDs8ewI4RMSKTU3LyLX43u8axhMZlP8fPl8RU0fD4GmGh8h0b3p2IAl0QDg1brPuw6rPAs9nbi0ljneaLAESsi2CjEydlQc]  
+
 
 ## 26 June - Arduino Bluetooth module
 
