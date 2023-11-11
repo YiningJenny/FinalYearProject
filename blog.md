@@ -190,9 +190,10 @@ I will keep both of the two version for inviting people play my game, and do fur
   
   ['矛', means spear](https://chardb.iis.sinica.edu.tw/evolution.jsp?cid=17440#)
 
-## 19th Oct - Tutorial
-- 讨论并发现了关卡设计中的一些漏洞，并设计了解决方法。包括：
-  - 单独在最后一关中加入合作环节似乎有些不妥，也许可以将前两关都做成竞赛模式，玩家在前面的关卡中努力竞争，来决定最后一关的合作角色（比如说赢的人可以当指挥）。这种游戏机制可能有些作弊和annoying，因为他们在前面部分付出的努力几乎没有实质性的作用。考虑到作为指挥的玩家可能会感到无聊（因为他除了举指示牌之外不用做任何事情），所以我们考虑让指挥家控制玩家跳跃，但是跳跃在这个游戏中并不是非常有必要，甚至可能会加速玩家死亡。这个设计的点在于：告诉玩家你可以这么做，但当他们尝试之后会发现这是个无用的功能。
+## 19th Oct - Tutorial - Some bugs in the level design were discussed and identified, and solutions were devised.
+
+It seems a bit wrong to include a co-operative section in the last level alone, maybe make the first two levels both in race mode, where players compete hard in the previous levels to determine the co-operative roles in the last level (e.g. the winner gets to be the conductor). This game mechanic could be a bit cheating and ANNOYING, as the effort they put in during the earlier parts has little to no substantial effect. Considering that the player who is the conductor might get bored (since he doesn't have to do anything but hold up signs), we considered letting the conductor control the player's jumping, but jumping isn't very necessary in this game, and might even hasten the player's death. The point of this design is this: tell the player that you can do this, but when they try it they will realise that it is a useless feature.
+
 ## 21th Oct
 - assembly and test Arduino sensors and revise the previous code.
   ![cd4de8c54c1f73802d6bc65999d79c7](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d3cba728-618c-4e0c-99b8-ac2b997b52e0)
@@ -200,14 +201,39 @@ I will keep both of the two version for inviting people play my game, and do fur
   
 ## 23th Oct
 
-找了第五关文字对应的字形演变图
+I realized that many people are very interested in the story behind the hieroglyphics and how they evoluted while talking with friends. I find the evolution of the hieroglyphics in game level 5
 
-[Ding(鼎)](https://zh.wiktionary.org/zh/%E9%BC%8E)
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/1275c944-d3a9-4e1f-b228-e99195572136)
 
-[bird](https://en.wikipedia.org/wiki/Radical_196#Evolution)
+['tripod' (2023) wiktionary. Available at: https://zh.wiktionary.org/zh/%E9%BC%8E]
 
-[Yu(聿)](https://en.wiktionary.org/wiki/%E8%81%BF)
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/f9fb30ed-53fc-4812-9fe6-fba81d74906c)
 
+['Radical' (2023) wiktionary. Available at: https://en.wikipedia.org/wiki/Radical_196#Evolution]
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/0652bcc3-42e6-41e4-878e-e50e539420fb)
+
+['聿' (2023) wiktionary. Available at: https://en.wiktionary.org/wiki/%E8%81%BF]
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/0e4d2b5c-0ff3-4fc7-9667-94f22ebcaf0e)
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/0dfce457-ebb1-43eb-bfa4-76ab6327e5c6)
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/6388c9d0-8da5-48d8-a452-841c28849e2a)
+
+---
+
+
+
+---
+
+I almost finish the main game mechanics for lavel 5. So I invited two of my friends to test it informal.
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/c2778146-a19e-4f33-b7d0-d0a2134112d0)
+
+Their feedback:
+
+- 
 
 ## 24th Oct - Tutorial with Lieven
 
@@ -222,6 +248,10 @@ The result was I successfully talk to HC-05 from Arduino Monitor and set up ever
 ![circuit diagram](https://github.com/YiningJenny/FinalYearProject/assets/119497753/600d83af-74fc-40e2-8ece-b68fd217f5dd)
 
 I think the reason why I failed was because I didn't use specific resistors (1.1k and 3.3k). 
+
+Arduino conponents and connections
+
+![cee8c0b08a43e0a397f0bf4e85d81e3](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d77d4750-dc96-4887-b73a-937646139a51)
 
 The Arduino code:
 
