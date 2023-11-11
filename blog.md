@@ -2,7 +2,7 @@
 
 I want to change the game background and other game assets. So I talk to my friend who is very good at painting. We decide to add more meaning to the arts design. The earliest Chinese hieroglyphics were found in Shang Dynasty, so we want to explore more related historic elements based on Shang dynasty. Here I list some of the components that match my project theme:
 
-- Oracle bone script - This is the Chinese character that is oldest known form of Chinese writing.
+- Oracle bone script - This is the Chinese character that is oldest known from of Chinese writing.
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/ab747c95-4639-4a3d-b6a8-5dd4454cd917)
 
@@ -12,21 +12,35 @@ I want to change the game background and other game assets. So I talk to my frie
 
 ![BG_Black](https://github.com/YiningJenny/FinalYearProject/assets/119497753/3cb084cb-ebf1-4f0d-af15-311eb26aca64)
 
+---
+
 - Ding (鼎) - Chinese bronze casting and pottery progressed during the Shang dynasty, and bronze was often used for objects of ceremonial significance rather than primarily for utilitarian purposes. The bronze Ding is one of the most important and iconic artefacts of the Shang Dynasty.
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/85238879-691a-4d76-90c4-a72f2d901c76)
 
+Arguably, the most frequent, though also the most intriguing and mysterious, form of décor is the two eyed motif, often referred to as the taotie.
+
+![Ding_(vessel),_China,_Shang_dynasty,_c _1500-1050_BCE,_HAA](https://github.com/YiningJenny/FinalYearProject/assets/119497753/dc2dc13f-5146-4aeb-a317-e865f93aa3b9)
+
+So I also looked up into taotie decoration.
+
+<img width="445" alt="image" src="https://github.com/YiningJenny/FinalYearProject/assets/119497753/6e3456ef-0824-49fe-b687-ae39dd19b4e0">
+
 [Resources from Wiki](https://en.wikipedia.org/wiki/Shang_dynasty)
 
-The evolution of Ding character:
+Additionally, I also find Ding characters interesting because its hieroglyphics looks like a cat. I want to introduce this word in Level 1 and make people feel confused. The evolution of Ding character:
 
 ![鼎](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d07bf543-773e-444c-84be-0eeb4fc184d7)
 
 [Resource from Wiki dictionary](https://zh.wiktionary.org/zh/%E9%BC%8E)
 
-- Sun and moon - Shang religious rituals featured divination and sacrifice. Shang Dynasty people observed astronomical signs and used them to calculate the dates of religious rituals and divination activities. Additionally, the astronomical and celestial records of the Shang Dynasty and the use of the stem-and-branch method of timekeeping are reflected in the oracle bone inscriptions.
+---
+
+- Sun and moon - Shang religious rituals featured divination and sacrifice. Shang Dynasty people observed astronomical signs and used them to calculate the dates of religious rituals and divination activities. Additionally, the astronomical and celestial records of the Shang Dynasty and the use of the stem-and-branch method of timekeeping are reflected in the oracle bone inscriptions. In this case, sun and moon must be important to Shang civilisation.
 
 [Resources from Wiki](https://en.wikipedia.org/wiki/Shang_dynasty)
+
+---
 
 - The black bird - In mythology, the Shang dynasty believed themselves to be descendants of the black bird.
 
