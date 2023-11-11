@@ -194,6 +194,13 @@ I will keep both of the two version for inviting people play my game, and do fur
 
 It seems a bit wrong to include a co-operative section in the last level alone, maybe make the first two levels both in race mode, where players compete hard in the previous levels to determine the co-operative roles in the last level (e.g. the winner gets to be the conductor). This game mechanic could be a bit cheating and ANNOYING, as the effort they put in during the earlier parts has little to no substantial effect. Considering that the player who is the conductor might get bored (since he doesn't have to do anything but hold up signs), we considered letting the conductor control the player's jumping, but jumping isn't very necessary in this game, and might even hasten the player's death. The point of this design is this: tell the player that you can do this, but when they try it they will realise that it is a useless feature.
 
+## 20 Oct
+
+I modified the style of the game's characters based on the feedback I got from the workshop earlier. Allowing the characters to stand out more in the game scene.
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/be36a2cd-168f-498e-9744-7630cefb0bb3)
+
+
 ## 21th Oct
 - assembly and test Arduino sensors and revise the previous code.
   ![cd4de8c54c1f73802d6bc65999d79c7](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d3cba728-618c-4e0c-99b8-ac2b997b52e0)
@@ -215,15 +222,47 @@ I realized that many people are very interested in the story behind the hierogly
 
 ['聿' (2023) wiktionary. Available at: https://en.wiktionary.org/wiki/%E8%81%BF]
 
+Props and narration & UI code:
+
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/0e4d2b5c-0ff3-4fc7-9667-94f22ebcaf0e)
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/0dfce457-ebb1-43eb-bfa4-76ab6327e5c6)
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/6388c9d0-8da5-48d8-a452-841c28849e2a)
 
+```C#
+    public GameObject yuDialog;
+    public GameObject birdDialog;
+    public GameObject dingDialog;
+
+    public void CloseYuDialog()
+    {
+        yuDialog.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void CloseBirdDialog()
+    {
+        birdDialog.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void CloseDingDialog()
+    {
+        dingDialog.SetActive(false);
+        Time.timeScale = 1;
+    }
+```
+
+Game over interface:
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/1397afa8-2632-42ad-ad53-37db1c32600a)
+
 ---
 
+![Animator](https://github.com/YiningJenny/FinalYearProject/assets/119497753/61446b35-b4ac-4fd8-b580-7b9ab3b68bef)
 
+In order to realise the different animation effects of the game character switching between idling, running, jumping and dead, I created a float value _speed_, a boolen value _isOnGround_ and a trigger _dead_. 
 
 ---
 
