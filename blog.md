@@ -111,7 +111,7 @@ Level 2 background:
 
 ## 17 - 18 August : flow chart and sketch diagram in Adobe AI
 considered the entire flow of the game and how players interact with the screen. As a result of doing more in-depth research and thinking about the sensor and Unity interaction part of the game, I had to change some of the game mechanics, and the in-game UI.
-- Level 3: __Chinese character formation in a grid using sections.__ “森” or “晖”&“晕”？ and how to interact? (The idea so far is to have three sensors on the top left and right for selecting text relative to the position on the screen. But i can only do "confirmation" like clicking instead of "selection" like computer mouse movement)  ___I need to check with Mahalia___
+- Level 3: __Chinese character formation in a grid using sections.__ Some Chinese characters are composed of identical elements, yet their placement varies. Some exhibit a left-right structure, while others feature a top-bottom configuration.“晖”&“晕”？Also, there are some characters are simply combined with same components like 木，林，森/又，双，叒，叕 (They're real Chinese characters, but they look like Legos.) .and how to interact? (The idea so far is to have three sensors on the top left and right for selecting text relative to the position on the screen. But i can only do "confirmation" like clicking instead of "selection" like computer mouse movement)  ___I need to check with Mahalia___
 - Level 4: __horizontal board game.__ aiming to encourage players to practice speaking Chinese. players need to read specific Chinese sentences and control the game character to move smoothly. ___game map references some voice-activated games___
 ### physical prototype and game flow chart:
 
@@ -204,7 +204,34 @@ I modified the style of the game's characters based on the feedback I got from t
 ## 21th Oct
 - assembly and test Arduino sensors and revise the previous code.
   ![cd4de8c54c1f73802d6bc65999d79c7](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d3cba728-618c-4e0c-99b8-ac2b997b52e0)
-- Continue Unity coding Level 4. (Finished the spike ball)(在这里补充SpikeBall的代码和画线的组件和代码)
+- Continue Unity coding Level 4. (Finished the spike ball). I used the "spear" character in Chinese hieroglyphics as the spike ball sprite. Here's the code for _lineRenderer_ components in Unity:
+  ```C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LineRender : MonoBehaviour
+{
+    LineRenderer line;
+    public Transform startPoint;
+    public Transform endPoint;
+
+    void Start()
+    {
+        line = GetComponent<LineRenderer>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        line.SetPosition(0, startPoint.position);
+        line.SetPosition(1, endPoint.position);
+    }
+}
+
+  ```
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/37ebff03-c2f1-4134-809b-4f426d573988)
+
   
 ## 23th Oct
 
