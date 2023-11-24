@@ -775,7 +775,7 @@ I wanted to make a very long map for Level 5 with the combinition of Shang dynas
 
 ## 31st Oct - Helloween
 
-I am so proud of myself that i'm still working on Helloween :)
+I am so proud of myself that i'm still working on Helloween :) The second image is I replaced the force sensor with more robust plugins and insulated them with glue gun.
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d6fa6c6c-aaf7-45c8-b820-613bcb2f04e7)
 
