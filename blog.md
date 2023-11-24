@@ -485,7 +485,7 @@ void loop() {
 }
 ```
 
-- Unity: receive data from Arduino
+- Unity: receive data from Arduino (the way how I calculated light position is by using %, which makes sure the value always within 0 to 360 degree, this solves the issue from last iteration.)
 
 ```C#
  public void CheckArduino()
