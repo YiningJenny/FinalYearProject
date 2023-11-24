@@ -383,8 +383,11 @@ My final circuit diagram:
 Challenge I met and solution:
 - I was worring that 4 force sensor being parallelled would lead to a very small electric current. So I tested and the reading from multimeter seems to be fine.
 - There is a gap on the bread board between the two sides of the resistance. It is very obvious but easy to be ignored (I spent almost a hour to figure out why the force sensor is not sending digitals after soldering). At last I cut a hole in between and it worked.
+- I didn't know that force sensor are not solderable, so I melt one...
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/408941d9-e82f-4923-bc9f-297ac02f5f67)
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/06d8e466-9b0a-4da9-8e1a-f63feafdfb18)
 
 The core code communicate between Arduino and Unity:
 
@@ -764,17 +767,27 @@ public class VoiceMovement : MonoBehaviour
 _The test results show a very serious delay in speech recognition, which seriously affects the player's game experience. I currently believe the delay is due to poor laptop radio, I will test again tomorrow with a wireless headset. Also, I think the game become much more difficult if controlled by speech, so I removed the spikes on buttom of the creeen._
 
 
-## 29th Nov - Level 5 game background redesign
+## 29th Oct - Level 5 game background redesign
 
 ![f9934e1d6dcfe3b2e16bc1e4b19e05b](https://github.com/YiningJenny/FinalYearProject/assets/119497753/a6bfce68-ef18-46d5-ba03-6236a674755e)
 
 I wanted to make a very long map for Level 5 with the combinition of Shang dynasty history. In Chinese literature, people like describing the timeline as a long river. Meanwhile, Yellow River is one of the most important and longest river in China. So I want to use Yellow River as a part of the game background. The green part of the draft is the block part that players can not go through. I plan to put some historical characters or antiques in the area to introduce the history of the Shang Dynasty.
 
-## 31st Oct - 
+## 31st Oct - Helloween
+
+I am so proud of myself that i'm still working on Helloween :)
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d6fa6c6c-aaf7-45c8-b820-613bcb2f04e7)
+
+- I attempted to get help from my friend who has good knowledge of medelling in c4d for the textual. We tried so many times always failed to import the model with textual from c4d to Unity. I asked in technic channel:
 
 _Hi, does anyone know how to import 3d models with texture from c4d to Unity? I tried .fbx and .obj and .dae but all failed. The models in Unity are all plain without any textures. I'm on c4d OC texture_
 
 <img width="265" alt="image" src="https://github.com/YiningJenny/FinalYearProject/assets/119497753/473b6071-c1fa-44fe-9794-d94d4e5ad467">
+
+Finally I just try the 3d material in Unity and it worked so well...(I'm satisfied with the visual since its a unity 2d camera)
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/284e2fd4-4b9b-4039-8e38-152ded0067cf)
 
 ## 2nd Nov - Tutorial with Mahalia
 
