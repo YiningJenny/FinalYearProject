@@ -960,4 +960,16 @@ I found some Chinese triditional style music for my game background music:
 
 I also updated my questionnair for tomorrow's filming and test - It's better to make every question clear and specific. Maybe the players prefer to answer "yes/no" question. But I can keep the detailed questions for those audience that wants to sit down and have a deep talk.
 
-[Updated question sheet](https://github.com/YiningJenny/FinalYearProject/blob/main/QuestionSheet.docx)
+[Updated question sheet](https://github.com/YiningJenny/FinalYearProject/blob/main/QuestionSheet.md)
+
+## 10th Nov - Official Testing and Filming
+
+I got so many audience engaged to my project! 
+
+Also got feedback:
+
+- speech level platform shouldn't be random - like Nintendo game designers test for ages just to make sure the route that players go through are perfect.
+- the target point position in projector always change, but it should match the position where i located the force sensor in reality. I should build the game full screen to make sure the point does not change.
+- It's better to have a rank list in speech level, then players have more motivation to play the game.
+
+(that's not all of the feedback and analyzation, see more details in dessertation.)
