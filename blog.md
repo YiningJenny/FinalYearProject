@@ -206,12 +206,6 @@ I modified the style of the game's characters based on the feedback I got from t
   ![cd4de8c54c1f73802d6bc65999d79c7](https://github.com/YiningJenny/FinalYearProject/assets/119497753/d3cba728-618c-4e0c-99b8-ac2b997b52e0)
 - Continue Unity coding Level 4. (Finished the spike ball). I used the "spear" character in Chinese hieroglyphics as the spike ball sprite. Here's the code for _lineRenderer_ components in Unity:
   ```C#
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class LineRender : MonoBehaviour
-{
     LineRenderer line;
     public Transform startPoint;
     public Transform endPoint;
@@ -227,10 +221,9 @@ public class LineRender : MonoBehaviour
         line.SetPosition(0, startPoint.position);
         line.SetPosition(1, endPoint.position);
     }
-}
-
   ```
-![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/37ebff03-c2f1-4134-809b-4f426d573988)
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/f0245b73-7262-43f8-b64b-aced477c35da)
+
 
   
 ## 23th Oct
@@ -299,7 +292,10 @@ I almost finish the main game mechanics for lavel 5. So I invited two of my frie
 
 Their feedback:
 
-- 
+- The speech level is far too difficult to pass through, because of the lack of game instruction, they don't know where to go in the game and how can they interact with the game.
+- Its still very funny to control by speaking (both of them were willing to try more than twice), its so different from the traditional keyboard controlling. 
+
+_My further plan as response: add text instrument in the game, and also try voice instrument._
 
 ## 24th Oct - Tutorial with Lieven
 
