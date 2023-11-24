@@ -386,6 +386,243 @@ Challenge I met and solution:
 
 ![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/408941d9-e82f-4923-bc9f-297ac02f5f67)
 
+The core code communicate between Arduino and Unity:
+
+- Arduino
+
+```C++
+#include <Wire.h>
+#include "Adafruit_MPR121.h"
+#include <Adafruit_Sensor.h>
+#include <Adafruit_BNO055.h>
+#include <utility/imumaths.h>
+
+// touch sensor
+#ifndef _BV
+#define _BV(bit) (1 << (bit)) 
+#endif
+
+// orientation
+#define BNO055_SAMPLERATE_DELAY_MS (100)
+Adafruit_BNO055 bno = Adafruit_BNO055(55, 0x28, &Wire);
+
+// force
+#define FORCE_SENSOR_PIN A0 // the FSR and 10K pulldown are connected to A0
+
+Adafruit_MPR121 cap = Adafruit_MPR121();
+// touch sensor
+uint16_t lasttouched = 0;
+uint16_t currtouched = 0;
+
+void setup() {
+  Serial.begin(115200);
+  
+  // touch sensor
+  // If tied to SDA its 0x5C and if SCL then 0x5D
+  if (!cap.begin(0x5A)) {
+    Serial.println("MPR121 not found, check wiring?");
+    while (1);
+  }
+  Serial.println("MPR121 found!");
+
+  // orientation
+  if(!bno.begin())
+  {
+    Serial.print("Ooops, no BNO055 detected ... Check your wiring or I2C ADDR!");
+    while(1);
+  }
+  bno.setExtCrystalUse(true);
+}
+
+void loop() {
+  // pressure
+  int analogReading = analogRead(FORCE_SENSOR_PIN);
+
+
+  // orientation
+    sensors_event_t event;
+    bno.getEvent(&event);
+    Serial.print("Vector3,");
+    Serial.print(event.orientation.x, 4);
+    Serial.print(",");
+    Serial.print(event.orientation.y, 4);
+    Serial.print(",");
+    Serial.println(event.orientation.z, 4);
+    Serial.print("Pressure:");
+    Serial.println(analogReading);
+    delay(50);
+    
+  // touch sesnsor
+  currtouched = cap.touched();
+  
+  for (uint8_t i=0; i<12; i++) {
+    // it if *is* touched and *wasnt* touched before, alert!
+    if ((currtouched & _BV(i)) && !(lasttouched & _BV(i)) ) {
+      //Serial.print(i); 
+      Serial.println("Wire:1");//touched
+    }
+    // if it *was* touched and now *isnt*, alert!
+    if (!(currtouched & _BV(i)) && (lasttouched & _BV(i)) ) {
+      //Serial.print(i); 
+      Serial.println("Wire:0");//released
+    }
+  }
+
+  // reset our state
+  lasttouched = currtouched;
+
+  return; // important!! It works
+    
+  for (uint8_t i=0; i<12; i++) {
+    Serial.print(cap.filteredData(i)); Serial.print("\t");
+  }
+  
+  for (uint8_t i=0; i<12; i++) {
+    Serial.print(cap.baselineData(i)); Serial.print("\t");
+  }
+  
+  delay(50);
+}
+```
+
+- Unity: receive data from Arduino
+
+```C#
+ public void CheckArduino()
+    {
+        
+        {
+            string data = sp.ReadLine();// ReadByte();
+            
+
+            if (data.StartsWith("Vector3,"))
+            {
+                string[] splitData1 = data.Split(',');
+                float xValue = float.Parse(splitData1[1]);
+                float yValue = float.Parse(splitData1[2]);
+                float zValue = float.Parse(splitData1[3]);
+                lightPos = new Vector3(/*-1 **/ (((xValue + 180f) % 360f)/ 360f * 100f - 50f), (yValue + 45) / 2 + 10, -2.5f);
+                // lightPos = new Vector3((xValue +180)%360), (yValue + 45) / 2 + 10, -2.5f);
+
+                if (lightPos.x > 14.5) {
+
+                    lightPos.x = 14.5f;
+                }
+                if (lightPos.x < -14.5)
+                {
+                    lightPos.x = -14.5f;
+                }
+                if (lightPos.y > 8.5)
+                {
+
+                    lightPos.y = 8.5f;
+                }
+                if(lightPos.y < -8.5)
+                {
+                    lightPos.y = -8.5f;
+                }
+                //print("lightPos"+lightPos);
+            }
+
+            else if (data.StartsWith("Wire:"))
+            {
+                string[] splitData1 = data.Split(':');
+                int wireStatus = int.Parse(splitData1[1]);
+                print("wireStatus:" + wireStatus);
+                
+                if (wireStatus == 0) // release
+                {
+                    currentTouch = false;
+                    lastTouch = true;
+                    //print("currentTouch:"+ currentTouch+ ",lastTouch:"+ lastTouch);
+                }
+                else if (wireStatus == 1) // touched
+                {
+                    currentTouch = true;
+                    lastTouch = false;
+                }
+            }
+        }
+    }
+
+ void CheckArduino()
+    {
+        string data = sp.ReadLine();
+        // darts
+        if (data.StartsWith("Pressure:"))
+        {
+            string[] splitData1 = data.Split(':');
+            int pressureStatus = int.Parse(splitData1[1]);
+            //print(pressureStatus);
+            if (pressureStatus > 50)
+            {
+                boolPressureStatus = true;
+            }
+            else boolPressureStatus = false;
+        }
+    }
+```
+
+- Unity: use the data from Arduino and control point light position and dart triggering
+
+```C#
+public void LightPosition()
+    {
+        // rain
+        if (lightController.lightPos.x > 1.469f &&
+            lightController.lightPos.x < 6.131f &&
+            lightController.lightPos.y < -5.572f &&
+            lightController.lightPos.y > -8.06f)
+        {
+            rainPos = true;
+            print("rainPos: " + rainPos);
+        }
+
+        else { 
+            rainPos = false;
+            print("rainPos: " + rainPos);
+        }
+
+        // sheep
+        if (lightController.lightPos.x > 3.64f &&
+            lightController.lightPos.x < 8.7f &&
+            lightController.lightPos.y < 1.37f &&
+            lightController.lightPos.y > -2.17f)
+        {
+            sheepPos = true;
+            print("sheepPos: " + sheepPos);
+        }
+        else { 
+            sheepPos = false;
+            print("sheepPos: " + sheepPos);
+        }
+
+        // ding
+        if (lightController.lightPos.x > -6.03f &&
+            lightController.lightPos.x < -4.01f &&
+            lightController.lightPos.y < -2.39f &&
+            lightController.lightPos.y > -7.159f)
+        {
+            dingPos = true;
+            print("dingPos: " + dingPos);
+        }
+        else
+        {
+            dingPos = false;
+            print("dingPos: " + dingPos);
+        }
+    }
+public void SelectTarget()
+    {
+        if (Input.GetMouseButtonDown(0) || boolPressureStatus == true)
+        {
+                //print("you are right");
+                successDialog.SetActive(true);
+                //Invoke("CloseSuccessDialog", 3f);//wait for 3s then call CloseSuccessDialog
+                Invoke("NextLevel", 5f);
+        }
+    }
+```
 ## 28th Oct - Speech recognition Test
 
 ### First trial
