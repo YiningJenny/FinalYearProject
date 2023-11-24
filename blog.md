@@ -973,3 +973,9 @@ Also got feedback:
 - It's better to have a rank list in speech level, then players have more motivation to play the game.
 
 (that's not all of the feedback and analyzation, see more details in dessertation.)
+
+The project testing was a big success, but I still need to develop it for the winter exhibition:
+
+- aim to make arduino wireless
+- the bow wire broke during the test. Although I fixed it very soon, but still need to consider how to make it more robust.
+- Text and voice instruments seems to be not enough (not very clear? like some people still have no clue what they can do). - consider print some photo guidance for winter exhibition.
