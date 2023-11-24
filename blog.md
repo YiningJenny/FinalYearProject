@@ -376,6 +376,16 @@ I plan to make a new long vertical map and collage of representative artefacts f
 
 [FRS Reference (circuit diagram and code)](https://www.circuits-diy.com/interfacing-force-sensing-resistor-fsr-with-arduino-uno/)
 
+My final circuit diagram:
+
+![99e4b3efdc68c4159827f10d81d8ad5](https://github.com/YiningJenny/FinalYearProject/assets/119497753/55635e7f-4f5f-492c-ada8-f07d643fc3e8)
+
+Challenge I met and solution:
+- I was worring that 4 force sensor being parallelled would lead to a very small electric current. So I tested and the reading from multimeter seems to be fine.
+- There is a gap on the bread board between the two sides of the resistance. It is very obvious but easy to be ignored (I spent almost a hour to figure out why the force sensor is not sending digitals after soldering). At last I cut a hole in between and it worked.
+
+![image](https://github.com/YiningJenny/FinalYearProject/assets/119497753/408941d9-e82f-4923-bc9f-297ac02f5f67)
+
 ## 28th Oct - Speech recognition Test
 
 ### First trial
