@@ -10,6 +10,8 @@ __This is just the documentation record for my research on bluetooth for winter 
 
 [board info](https://store.arduino.cc/products/arduino-nano-33-ble)
 
+### F_M_B Original code
+
 ```C++
 #include <Wire.h>
 #include "Adafruit_MPR121.h"
@@ -107,7 +109,7 @@ void loop() {
 
 }
 ```
-## F_M_B integrated with Nano 33(currently work) code
+### F_M_B integrated with Nano 33(currently work) code
 ```C++
 /*
   BLE_Peripheral.ino
