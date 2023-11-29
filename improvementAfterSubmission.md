@@ -7,3 +7,5 @@ __This is just the documentation record for my research on bluetooth for winter 
 [code example](https://rootsaid.com/arduino-ble-example/)
 
 [Connecting Nano 33 BLE Devices over Bluetooth](https://docs.arduino.cc/tutorials/nano-33-ble-sense/ble-device-to-device)
+
+[board info](https://store.arduino.cc/products/arduino-nano-33-ble)
